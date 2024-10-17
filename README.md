@@ -1,4 +1,4 @@
-# React + Vite Add To Cart Project
+#  Add To Cart Project (React + Vite)
  
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
@@ -9,3 +9,10 @@ Currently, two official plugins are available:
 
 
 
+1. created a Display Page using ProductDisplay.jsx in the Components folder.
+2. called that ProductDisplay in the Developer parent App.jsx
+3. Using Fake Store API, fetched the data from API
+4. Displayed them in the using map function of the Card Component.
+5. In the NavigationBar Component, Cart Button is created.
+6. If it is clicked, then the function of setCartStatus triggered and set the status as true.
+7. It opens the Cart Component
