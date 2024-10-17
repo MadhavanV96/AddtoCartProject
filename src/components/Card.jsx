@@ -3,7 +3,7 @@ import React from 'react';
 const Card = ({ product,addToCart }) => {
     return (
         
-            <div className="relative m-10 flex w-[300px] h-[500px] max-w-xs justify-between flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md cursor-pointer">
+            <div className="relative m-10 flex w-[250px] h-[500px] max-w-xs justify-between flex-col overflow-hidden rounded-lg border border-gray-100 bg-white shadow-md cursor-pointer">
                 <a className="relative mx-3 mt-3 flex h-60 overflow-hidden rounded-xl  justify-center hover:opacity-20" onClick={()=>addToCart(product)}>
                     <img className="object-cover" src={product.image} alt="product image" />
                 </a>
